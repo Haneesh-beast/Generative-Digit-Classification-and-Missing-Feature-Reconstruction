@@ -93,26 +93,25 @@ pip install numpy matplotlib jupyter
 ```
 
 ### 📥 Dataset Setup
-1. Download the MNIST dataset from Kaggle: [Read MNIST Dataset](https://www.kaggle.com/datasets/hojjatk/mnist-dataset/data).
-2. Extract the files and structure your project directory as follows:
-   ```
-   ├── cs771/
-   │   ├── __init__.py
-   │   ├── plotData.py
-   │   └── utils.py
-   ├── images/
-   │   ├── 1_gmm_components.png
-   │   ├── 2_classification_predictions.png
-   │   ├── 3_censored_images.png
-   │   └── 4_reconstructed_images.png
-   ├── mnist/
-   │   ├── t10k-images-idx3-ubyte/
-   │   ├── t10k-labels-idx1-ubyte/
-   │   ├── train-images-idx3-ubyte/
-   │   └── train-labels-idx1-ubyte/
-   ├── Generative_Digit_Classification.ipynb
-   └── README.md
-   ```
+Extract the files and structure your project directory as follows:
+```
+├── cs771/
+│   ├── __init__.py
+│   ├── plotData.py
+│   └── utils.py
+├── Generative_Digit_Classification.ipynb
+├── images/
+│   ├── 1_gmm_components.png
+│   ├── 2_classification_predictions.png
+│   ├── 3_censored_images.png
+│   └── 4_reconstructed_images.png
+├── mnist/
+│   ├── t10k-images-idx3-ubyte/
+│   ├── t10k-labels-idx1-ubyte/
+│   ├── train-images-idx3-ubyte/
+│   └── train-labels-idx1-ubyte/
+└── README.md
+```
 
 ### 💻 Running the Experiments
 Launch the Jupyter notebook interface:
